@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="test_sandbox_wsdl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/test_sandbox_wsdl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/test_sandbox_wsdl.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1521520079084" stop="1521520086472" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : aip</name>
+    <title>Default Suite : aip</title>
+    <test-cases>
+        <test-case start="1521520085479" stop="1521520085481" status="passed">
+            <name>login</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Dell"/>
+                <label name="thread" value="7752@Dell.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

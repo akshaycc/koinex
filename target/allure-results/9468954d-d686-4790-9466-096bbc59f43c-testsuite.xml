@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1521521594437" stop="1521521603458" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : koinex</name>
+    <title>Default Suite : koinex</title>
+    <test-cases>
+        <test-case start="1521521602070" stop="1521521602613" status="passed">
+            <name>login</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Dell"/>
+                <label name="thread" value="2156@Dell.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

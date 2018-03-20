@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression suite" verbose="1" >
+    <!--<test name="[Sales] Home Test Cases" >
+        <classes>
+            <class name="com.koinex_testest.Sales_Flow.SalesHomeTest"/>
+        </classes>
+    </test>
+    <test name="[Sales] Save As Lead Test Cases" >
+        <classes>
+            <class name="com.koinex_testest.Sales_Flow.SaveAsLeadTest"/>
+        </classes>
+    </test>
+    <test name="[Sales] Add Account Test Cases" >
+        <classes>
+            <class name="com.koinex_testest.Sales_Flow.AddAccountTest"/>
+        </classes>
+    </test>
+    <test name="[Sales] Order Details Test Cases" >
+        <classes>
+            <class name="com.koinex_testest.Sales_Flow.OrderDetails"/>
+        </classes>
+    </test>
+    <test name="[Sales] Product Details Test Cases" >
+        <classes>
+            <class name="com.koinex_testest.Sales_Flow.ProductDetailsTest"/>
+        </classes>
+    </test>
+    <test name="[Sales] Sales Search Test Cases" >
+        <classes>
+            <class name="com.koinex_testest.Sales_Flow.SalesSearchTest"/>
+        </classes>
+    </test>
+    <test name="[Sales] Edit Order Details Test Cases" >
+        <classes>
+            <class name="com.koinex_testest.Sales_Flow.EditOrderTest"/>
+        </classes>
+    </test>-->
+
+    <test name="[AIP]Salesforce Login" >
+        <classes>
+            <class name="com.koinex_test.Login.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
