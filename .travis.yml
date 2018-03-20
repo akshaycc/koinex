@@ -7,12 +7,12 @@
   "dist": "trusty",
   "os": "windows"
   "addons":
-  apt:
-    sources:
+  "apt":
+    "sources":
       - google-chrome
-    packages:
+    "packages":
       - google-chrome-beta
-before_install:
+"before_install":
   - "npm config set spin false"
   - "npm install -g npm@^2"
   - google-chrome-stable --headless --no-sandbox
