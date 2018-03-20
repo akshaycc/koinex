@@ -6,4 +6,14 @@
   "group": "stable",
   "dist": "trusty",
   "os": "windows"
+  "addons":
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-beta
+before_install:
+  - "npm config set spin false"
+  - "npm install -g npm@^2"
+  - google-chrome-stable --headless --no-sandbox
 }
