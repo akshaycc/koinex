@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1521522997487" stop="1521523008890" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Regression suite : [AIP]Salesforce Login</name>
+    <title>Regression suite : [AIP]Salesforce Login</title>
+    <test-cases>
+        <test-case start="1521523007269" stop="1521523007645" status="passed">
+            <name>login</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Dell"/>
+                <label name="thread" value="9756@Dell.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

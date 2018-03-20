@@ -1,26 +1,7 @@
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/SFDC_API/Accounts.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Pages.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Login/LoginPageObjectRepository.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Sales_Flow/ProductDetails/ProductDetailsPage.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Sales_Flow/ProductDetails/ProductDetailsPageObjectRepository.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Sales_Flow/AddAccount/AddAccountPageObjectRepository.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/SFDC_API/Contacts.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Login/LoginPage.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Sales_Flow/SalesHome/SalesHomePage.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Sales_Flow/SaveAsLead/SaveAsLeadPage.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Sales_Flow/OrderDetails/OrderDetailsPage.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Sales_Flow/OrderSummary/OrderSummaryPageObjectRepository.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/SFDC_API/APIBase.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/utils/PropertyReader.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/utils/ObjectsBase.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Sales_Flow/SaveAsLead/SaveAsLeadPageObjectRepository.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/SFDC_API/Lead.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/utils/Base.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Sales_Flow/SalesHome/SalesHomePageObjectRepository.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Sales_Flow/OrderSummary/OrderSummaryPage.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/SFDC_API/Login.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Alert/AlertObjectRepository.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Sales_Flow/AddAccount/AddAccountPage.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Sales_Flow/OrderDetails/OrderDetailsPageObjectRepository.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/utils/InitiateDriver.java
-/Users/codecraft/Documents/CodeCraft_Automation/PERS_AIP_Salesforce_Automation/src/main/java/com/pers_aip/Alert/Alert.java
+F:\automation files\koinex\src\main\java\com\koinex_test\Login\LoginPage.java
+F:\automation files\koinex\src\main\java\com\koinex_test\Login\LoginPageObjectRepository.java
+F:\automation files\koinex\src\main\java\com\koinex_test\Pages.java
+F:\automation files\koinex\src\main\java\com\koinex_test\utils\ObjectsBase.java
+F:\automation files\koinex\src\main\java\com\koinex_test\utils\InitiateDriver.java
+F:\automation files\koinex\src\main\java\com\koinex_test\utils\Base.java
+F:\automation files\koinex\src\main\java\com\koinex_test\utils\PropertyReader.java

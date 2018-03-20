@@ -10,7 +10,7 @@
     <properties>
         <allure.version>1.4.23</allure.version>
         <aspectj.version>1.8.5</aspectj.version>
-        <suiteXmlFile>src/test/java/com/pers_aip/testng.xml</suiteXmlFile>
+        <suiteXmlFile>src/test/java/com/koinex_test/testng.xml</suiteXmlFile>
         <sfdcJarPath>/test_sandbox_wsdl.jar</sfdcJarPath>
     </properties>
 
@@ -91,13 +91,7 @@
             <version>40.1.1</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.sforce.soap.partner</groupId>
-            <artifactId>prod</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${pom.basedir}/prod_wsdl.jar</systemPath>
-        </dependency>
+
 
         <!--<dependency>-->
             <!--<groupId>org.apache.axis2</groupId>-->
@@ -137,27 +131,9 @@
             <artifactId>axis2-jaxws</artifactId>
             <version>1.7.5</version>
         </dependency>
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>prodagwsdl</artifactId>
-            <version>0.1.0-SNAPSHOT</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/prodagwsdl-0.1.0-SNAPSHOT.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>prodagservicewsdl</artifactId>
-            <version>0.1.0-SNAPSHOT</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/prodagservicewsdl-0.1.0-SNAPSHOT.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>prodagreceiverwsdl</artifactId>
-            <version>0.1.0-SNAPSHOT</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/prodagreceiverwsdl-0.1.0-SNAPSHOT.jar</systemPath>
-        </dependency>
+
+
+
     </dependencies>
     <reporting>
         <excludeDefaults>true</excludeDefaults>

@@ -1,146 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression suite" duration-ms="125527" started-at="2017-07-27T08:26:24Z" finished-at="2017-07-27T08:28:30Z">
+  <suite name="Regression suite" duration-ms="11362" started-at="2018-03-20T05:16:37Z" finished-at="2018-03-20T05:16:48Z">
     <groups>
     </groups>
-    <test name="Regression suite 1" duration-ms="125527" started-at="2017-07-27T08:26:24Z" finished-at="2017-07-27T08:28:30Z">
-      <class name="com.pers_aip.Sales_Flow.SalesHomeTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="setup" is-config="true" duration-ms="19024" started-at="2017-07-27T13:56:25Z" finished-at="2017-07-27T13:56:44Z">
+    <test name="[AIP]Salesforce Login" duration-ms="11362" started-at="2018-03-20T05:16:37Z" finished-at="2018-03-20T05:16:48Z">
+      <class name="com.koinex_test.Login.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.koinex_test.Login.LoginTest@3c0ecd4b]" name="setup" is-config="true" duration-ms="9755" started-at="2018-03-20T10:46:37Z" finished-at="2018-03-20T10:46:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ableToContinueToAddAccountScreenWithoutCheckingAnyCheckboxes()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="ableToContinueToAddAccountScreenWithoutCheckingAnyCheckboxes" duration-ms="2535" started-at="2017-07-27T13:56:44Z" finished-at="2017-07-27T13:56:46Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.koinex_test.Login.LoginTest@3c0ecd4b]" name="login" duration-ms="395" started-at="2018-03-20T10:46:47Z" finished-at="2018-03-20T10:46:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ableToContinueToAddAccountScreenWithoutCheckingAnyCheckboxes -->
-        <test-method status="PASS" signature="teardownAndTakeScreenShot(org.testng.ITestResult)[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="teardownAndTakeScreenShot" is-config="true" duration-ms="83" started-at="2017-07-27T13:56:46Z" finished-at="2017-07-27T13:56:46Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardownAndTakeScreenShot(org.testng.ITestResult)[pri:0, instance:com.koinex_test.Login.LoginTest@3c0ecd4b]" name="teardownAndTakeScreenShot" is-config="true" duration-ms="1158" started-at="2018-03-20T10:46:47Z" finished-at="2018-03-20T10:46:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ableToContinueToAddAccountScreenWithoutCheckingAnyCheckboxes status=SUCCESS method=SalesHomeTest.ableToContinueToAddAccountScreenWithoutCheckingAnyCheckboxes()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login()[pri:0, instance:com.koinex_test.Login.LoginTest@3c0ecd4b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownAndTakeScreenShot -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="setup" is-config="true" duration-ms="15918" started-at="2017-07-27T13:56:46Z" finished-at="2017-07-27T13:57:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickingSkipToLeadButtonShouldDisplayAllLeadScreen()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="clickingSkipToLeadButtonShouldDisplayAllLeadScreen" duration-ms="2354" started-at="2017-07-27T13:57:02Z" finished-at="2017-07-27T13:57:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickingSkipToLeadButtonShouldDisplayAllLeadScreen -->
-        <test-method status="PASS" signature="teardownAndTakeScreenShot(org.testng.ITestResult)[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="teardownAndTakeScreenShot" is-config="true" duration-ms="75" started-at="2017-07-27T13:57:05Z" finished-at="2017-07-27T13:57:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=clickingSkipToLeadButtonShouldDisplayAllLeadScreen status=SUCCESS method=SalesHomeTest.clickingSkipToLeadButtonShouldDisplayAllLeadScreen()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownAndTakeScreenShot -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="setup" is-config="true" duration-ms="15932" started-at="2017-07-27T13:57:05Z" finished-at="2017-07-27T13:57:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="disableContinueButtonForIncorrectAccountIdFormat()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="disableContinueButtonForIncorrectAccountIdFormat" duration-ms="1389" started-at="2017-07-27T13:57:21Z" finished-at="2017-07-27T13:57:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disableContinueButtonForIncorrectAccountIdFormat -->
-        <test-method status="PASS" signature="teardownAndTakeScreenShot(org.testng.ITestResult)[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="teardownAndTakeScreenShot" is-config="true" duration-ms="73" started-at="2017-07-27T13:57:22Z" finished-at="2017-07-27T13:57:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=disableContinueButtonForIncorrectAccountIdFormat status=SUCCESS method=SalesHomeTest.disableContinueButtonForIncorrectAccountIdFormat()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownAndTakeScreenShot -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="setup" is-config="true" duration-ms="15960" started-at="2017-07-27T13:57:22Z" finished-at="2017-07-27T13:57:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateInvalidZipcode()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="validateInvalidZipcode" duration-ms="1421" started-at="2017-07-27T13:57:38Z" finished-at="2017-07-27T13:57:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateInvalidZipcode -->
-        <test-method status="PASS" signature="teardownAndTakeScreenShot(org.testng.ITestResult)[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="teardownAndTakeScreenShot" is-config="true" duration-ms="78" started-at="2017-07-27T13:57:39Z" finished-at="2017-07-27T13:57:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateInvalidZipcode status=SUCCESS method=SalesHomeTest.validateInvalidZipcode()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownAndTakeScreenShot -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="setup" is-config="true" duration-ms="15952" started-at="2017-07-27T13:57:39Z" finished-at="2017-07-27T13:57:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateValidZipcode()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="validateValidZipcode" duration-ms="1609" started-at="2017-07-27T13:57:55Z" finished-at="2017-07-27T13:57:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateValidZipcode -->
-        <test-method status="PASS" signature="teardownAndTakeScreenShot(org.testng.ITestResult)[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="teardownAndTakeScreenShot" is-config="true" duration-ms="75" started-at="2017-07-27T13:57:57Z" finished-at="2017-07-27T13:57:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateValidZipcode status=SUCCESS method=SalesHomeTest.validateValidZipcode()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownAndTakeScreenShot -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="setup" is-config="true" duration-ms="17009" started-at="2017-07-27T13:57:57Z" finished-at="2017-07-27T13:58:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyButtonIsDisabledWhenContinueButtonIsBlank()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="verifyButtonIsDisabledWhenContinueButtonIsBlank" duration-ms="44" started-at="2017-07-27T13:58:14Z" finished-at="2017-07-27T13:58:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyButtonIsDisabledWhenContinueButtonIsBlank -->
-        <test-method status="PASS" signature="teardownAndTakeScreenShot(org.testng.ITestResult)[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="teardownAndTakeScreenShot" is-config="true" duration-ms="77" started-at="2017-07-27T13:58:14Z" finished-at="2017-07-27T13:58:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyButtonIsDisabledWhenContinueButtonIsBlank status=SUCCESS method=SalesHomeTest.verifyButtonIsDisabledWhenContinueButtonIsBlank()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownAndTakeScreenShot -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="setup" is-config="true" duration-ms="15546" started-at="2017-07-27T13:58:14Z" finished-at="2017-07-27T13:58:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyButtonIsDisabledWhenZipcodeIsLessThan5Digits()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="verifyButtonIsDisabledWhenZipcodeIsLessThan5Digits" duration-ms="125" started-at="2017-07-27T13:58:30Z" finished-at="2017-07-27T13:58:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyButtonIsDisabledWhenZipcodeIsLessThan5Digits -->
-        <test-method status="PASS" signature="teardownAndTakeScreenShot(org.testng.ITestResult)[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241]" name="teardownAndTakeScreenShot" is-config="true" duration-ms="76" started-at="2017-07-27T13:58:30Z" finished-at="2017-07-27T13:58:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyButtonIsDisabledWhenZipcodeIsLessThan5Digits status=SUCCESS method=SalesHomeTest.verifyButtonIsDisabledWhenZipcodeIsLessThan5Digits()[pri:0, instance:com.pers_aip.Sales_Flow.SalesHomeTest@6c9af241] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownAndTakeScreenShot -->
-      </class> <!-- com.pers_aip.Sales_Flow.SalesHomeTest -->
-    </test> <!-- Regression suite 1 -->
+      </class> <!-- com.koinex_test.Login.LoginTest -->
+    </test> <!-- [AIP]Salesforce Login -->
   </suite> <!-- Regression suite -->
 </testng-results>
